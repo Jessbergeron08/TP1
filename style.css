@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* style classe */
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.fondvert {
+  background-color: #E9F4B3;
+  padding: 80px;
+  margin-top: 40px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.imgdroite {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 40px;
+}
+
+.imggauche {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 40px;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* style anatomie */
+
+header {
+  background-image: url(../img/GRADIENT.png);
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-position: center;
+  max-width: 1200px;
+  width: 90%;
+  margin: 40PX auto;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+body {
+  background: #000000;
+  margin: 0px;
+}
+
+footer {
+  background-color: #1F1F1F;
+  color: #CACACA;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+/* style de texte */
+
+h1 {
+  font-family: 'Syne', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 140px;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: 'Syne', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0px;
+}
+
+h3 {
+  font-family: 'Syne', sans-serif;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+em {
+  font-weight: 700;
+}
+
+ul {
+  font-family: 'Inter', sans-serif;
+  padding-left: 0px;
+  line-height: 30px;
+}
+
+figcaption {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+
+/* style de bouton */
+
+.btnRond {
+  color: #1F1F1F;
+  font-family: 'Syne', sans-serif;
+  padding: 10px 30px;
+  border: 1.5px solid #1F1F1F;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.btnRond:hover {
+  color: #CACACA;
+  font-family: 'Syne', sans-serif;
+  background-color: #1F1F1F;
+  padding: 10px 30px;
+  border: 1.5px solid #1F1F1F;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.btn2 {
+  color: #141414;
+  text-decoration: none;
+  border-bottom: .125em solid #8ED1A1;
+  box-shadow: inset 0 -0.125em 0 #8ED1A1;
+  transition: box-shadow 270ms cubic-bezier(0.77, 0, 0.175, 1), color 270ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.btn2:hover {
+  box-shadow: inset 0 -1.125em 0 #8ED1A1;
+  color: #1F1F1F;
+}
